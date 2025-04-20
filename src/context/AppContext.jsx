@@ -6,7 +6,7 @@ export const AppContext = createContext();
 export const AppContectProvider=({children})=>{
 
     const navigate =useNavigate();
-    const [user, setUser]=useState(null) 
+    const [user, setUser]=useState(true) 
     const [isSeller, setIsSeller]=useState(false)
     const [ishowUserLogin, setShowUserLogn]=useState(false)
 
